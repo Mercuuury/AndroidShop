@@ -7,4 +7,11 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="electric_indigo">#6633FF</color>
+    <color name="electric_indigo2">#572CD7</color>
+    <color name="persian_indigo">#270B76</color>
+    <color name="persian_indigo2">#1B0752</color>
+    <color name="night">#0D0D0D</color>
+    <color name="sunglow">#FFCC33</color>
+    <color name="sunglow2">#CD9C07</color>
 </resources>

@@ -7,4 +7,34 @@
     <string name="title_cart">Корзина</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home_search_hint">Введите название товара</string>
+    <string name="placeholder_category">Наименование категории</string>
+    <string name="placeholder_product">Наименование товара</string>
+    <string name="placeholder_price">9 999 ₽</string>
+    <string name="categories_title">Категории</string>
+    <string name="popular_products_title">Популярные товары</string>
+
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in urna congue, cursus erat sed, lacinia sem. Ut interdum rutrum odio, sed interdum velit elementum vitae. Donec interdum mi id felis ornare, rhoncus pulvinar tortor euismod.</string>
+    <string name="placeholder_reviews_count_text">отзывов</string>
+    <string name="add_to_cart">Добавить в корзину</string>
+
+    <string-array name="categories">
+        <item>Клавиатуры и мыши</item>
+        <item>Наушники</item>
+        <item>Микрофоны</item>
+        <item>Процессоры</item>
+        <item>Видеокарты</item>
+        <item>Материнские платы</item>
+        <item>Оперативная память</item>
+        <item>Системы охлаждения</item>
+    </string-array>
+
+    <string-array name="products">
+        <item>Процессор Intel Core i5–10400f</item>
+        <item>Материнская плата Gigabyte B560M</item>
+        <item>Оперативная память TridentZ 8Gb</item>
+        <item>Кулер CoolerMaster CM430</item>
+        <item>Видеокарта MSI GeForce GTX 1050 Ti</item>
+        <item>Корпус PC Case CX01</item>
+    </string-array>
 </resources>

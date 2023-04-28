@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dragView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="false"
+    android:orientation="vertical"
+    android:background="@drawable/layout_bg">
+
+    <TextView
+        android:id="@+id/product_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="24dp"
+        android:paddingHorizontal="24dp"
+        android:text="@string/placeholder_product"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/night"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="20dp"
+        android:paddingTop="6dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/baseline_star_24"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/baseline_star_24"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/baseline_star_24"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/baseline_star_half_24"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/baseline_star_border_24"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/product_reviews_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="46"
+            android:paddingLeft="8dp"
+            android:paddingTop="4dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/placeholder_reviews_count_text"
+            android:paddingTop="4dp"
+            android:paddingLeft="4dp"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/product_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:paddingHorizontal="24dp"
+        android:text="@string/placeholder_price"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="@color/night"/>
+
+    <TextView
+        android:id="@+id/product_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:paddingHorizontal="24dp"
+        android:text="@string/lorem"
+        android:textSize="16sp"
+        android:textColor="@color/night"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="24dp"
+        android:paddingRight="14dp"
+        android:paddingTop="8dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingVertical="5.7dp">
+
+            <ImageButton
+                android:id="@+id/product_favorite_btn"
+                android:layout_width="48dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/btn_rounded_outline"
+                android:src="@drawable/outline_favorite_border_24_indigo"/>
+            <ImageButton
+                android:id="@+id/product_compare_btn"
+                android:layout_width="48dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/btn_rounded_outline"
+                android:src="@drawable/outline_bar_chart_24_indigo"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/product_add_to_cart_btn"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginHorizontal="8dp"
+            android:text="@string/add_to_cart" />
+    </LinearLayout>
+</LinearLayout>
