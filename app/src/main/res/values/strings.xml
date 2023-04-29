@@ -17,6 +17,11 @@
     <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in urna congue, cursus erat sed, lacinia sem. Ut interdum rutrum odio, sed interdum velit elementum vitae. Donec interdum mi id felis ornare, rhoncus pulvinar tortor euismod.</string>
     <string name="placeholder_reviews_count_text">отзывов</string>
     <string name="add_to_cart">Добавить в корзину</string>
+    <string name="compare_title">Сравнение</string>
+    <string name="title_lists">Списки</string>
+    <string name="noElementsHere">Здесь пока ничего нет</string>
+    <string name="noElementsHereMsg">Добавляйте понравившиеся товары в избранное, чтобы посмотреть или купить их позже</string>
+    <string name="watchCatalog">Посмотреть каталог</string>
 
     <string-array name="categories">
         <item>Клавиатуры и мыши</item>
